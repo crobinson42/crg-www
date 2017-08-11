@@ -1,0 +1,126 @@
+/* ======= Modal ======= */
+.modal-body {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    iframe {
+        max-width: 100%;
+    }
+    
+    
+}
+
+.modal-content {
+    .border-radius(0);
+}
+
+.modal-header {
+    border: none;
+    padding-top: 30px;
+    position: relative; 
+}
+
+.modal button.close {
+    font-size: 36px;
+    font-weight:300;
+    text-shadow:none;
+    background: none;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    z-index:10;
+    .opacity(0.6);
+    &:hover {
+        .opacity(1);
+    }
+}
+
+.modal-backdrop.in {
+        .opacity(0.9);
+}
+
+.modal {
+    .modal-title {
+        font-size: 24px;
+        font-weight:900;
+    }
+    
+    .figure {
+        margin-bottom: 30px;
+        text-align: center;
+        img {
+            margin: 0 auto;
+        }
+    }
+   .review {
+       
+       margin: 15px auto;
+       margin-top: 30px;
+       background: @smoky-white;
+       padding: 30px;
+   }    
+   
+   .rating {
+        margin-bottom: 15px;
+        .fa {
+            color: @color-rating;
+        }
+    }
+
+    .quote {
+        border-left: none;
+        background: @color-primary;
+        color: #fff;
+        padding: 30px;
+        font-size: 16px;
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        .border-radius(4px);
+        position: relative;
+        padding-left: 20px;
+        text-align: center;
+        .fa-quote-left {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            color: rgba(256, 256, 256, 0.6);
+            color: rgba(0, 0, 0, 0.4);
+        }
+        &:after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid @color-primary;
+                position: absolute;
+                bottom: -10px;
+                margin-left: -10px;
+                left: 50%;
+        }
+    }
+    .customer-profile {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .source {
+        font-size: 13px;
+        color: @text-color-secondary;
+        a {
+            color: @text-color-secondary;
+            &:hover {
+                color: @color-primary;
+            }
+        }
+    }
+}
+
+
+
+
+
+
