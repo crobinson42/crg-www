@@ -1,11 +1,16 @@
 const gulp = require("gulp")
-const include = require("gulp-codekit")
+const less = require('gulp-less')
+const lessImport = require('gulp-less-import')
+const path = require('path')
 
 gulp.task("less", function() {
   console.log("-- gulp is running task 'less'")
 
   gulp.src("less/**/*.less")
-    .pipe(include())
+    .pipe(lessImport('styles.less'))
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less') ]
+    }))
     .on('error', console.log)
     .pipe(gulp.dest("assets/css"))
 })
