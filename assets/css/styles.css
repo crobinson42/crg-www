@@ -1,6 +1,6 @@
 /* ======= About Section ======= */
 .about-section {
-  background: #f5f5f5;
+  background: #FDFDFD;
 }
 .about-desc {
   max-width: 720px;
@@ -35,7 +35,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #2f7ddb;
+  color: #314256;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -44,11 +44,11 @@ a {
 a:hover,
 a:active {
   text-decoration: underline;
-  color: #2370cd;
+  color: #283646;
 }
 a:focus {
   text-decoration: none;
-  color: #2370cd;
+  color: #283646;
   outline: none;
 }
 .btn,
@@ -69,7 +69,7 @@ a.btn-cta,
 }
 a.btn-primary,
 .btn-primary {
-  background: #00c85d;
+  background: #7C8920;
   border: none;
   color: #fff;
 }
@@ -79,14 +79,14 @@ a.btn-primary:active,
 .btn-primary:active,
 a.btn-primary:focus,
 .btn-primary:focus {
-  background: #00af51;
+  background: #69741b;
   border: none;
   color: #fff;
   outline: none;
 }
 a.btn-secondary,
 .btn-secondary {
-  background: #2f7ddb;
+  background: #314256;
   border: none;
   color: #fff;
 }
@@ -96,7 +96,7 @@ a.btn-secondary:active,
 .btn-secondary:active,
 a.btn-secondary:focus,
 .btn-secondary:focus {
-  background: #2370cd;
+  background: #283646;
   border: none;
   color: #fff;
   outline: none;
@@ -149,7 +149,7 @@ textarea {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #2064b7;
+  background: #1e2936;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -166,7 +166,7 @@ textarea {
   background-clip: padding-box;
 }
 #topcontrol:hover {
-  background: #1c59a2;
+  background: #151d25;
   color: #fff;
 }
 #topcontrol .fa {
@@ -301,7 +301,7 @@ textarea {
 }
 /* ======= Callout Section ======= */
 .callout-section {
-  background: #2f7ddb;
+  background: #314256;
   color: #fff;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -314,7 +314,7 @@ textarea {
 }
 /* ======= Contact Section ======= */
 .contact-section {
-  background: #2f7ddb;
+  background: #314256;
   color: #fff;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -518,7 +518,7 @@ body {
 }
 /* ======= FAQs Section ======= */
 .faq-section {
-  background: #f5f5f5;
+  background: #FDFDFD;
 }
 .faq-section .section-title {
   margin-bottom: 60px;
@@ -536,7 +536,7 @@ body {
   color: #343E49;
 }
 .faq-section .panel-title a {
-  color: #2f7ddb;
+  color: #314256;
 }
 .faq-section .panel-body {
   font-size: 14px;
@@ -545,8 +545,9 @@ body {
 }
 /* ======= Footer ======= */
 .footer {
-  background: #113560;
-  color: rgba(255, 255, 255, 0.7);
+  background-image: url('woodfloor.jpg');
+  background-size: contain;
+  background-repeat: repeat;
   font-size: 14px;
 }
 .footer a {
@@ -615,7 +616,7 @@ body {
   padding-top: 60px;
 }
 .bottombar {
-  background: #0d294b;
+  background: #000000;
   padding-top: 15px;
   padding-bottom: 15px;
   color: rgba(255, 255, 255, 0.4);
@@ -644,7 +645,7 @@ body {
 }
 /* ====== Header ======= */
 .topbar {
-  background: #2064b7;
+  background: #1e2936;
   color: #fff;
   position: fixed;
   top: 0;
@@ -736,7 +737,7 @@ h1.logo img {
   position: absolute;
   left: 0;
   top: 0;
-  color: #2f7ddb;
+  color: #314256;
 }
 /* ====== Nav ======= */
 .navbar-header {
@@ -849,7 +850,7 @@ h1.logo img {
 .modal .review {
   margin: 15px auto;
   margin-top: 30px;
-  background: #f5f5f5;
+  background: #FDFDFD;
   padding: 30px;
 }
 .modal .rating {
@@ -860,7 +861,7 @@ h1.logo img {
 }
 .modal .quote {
   border-left: none;
-  background: #2f7ddb;
+  background: #314256;
   color: #fff;
   padding: 30px;
   font-size: 16px;
@@ -893,7 +894,7 @@ h1.logo img {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #2f7ddb;
+  border-top: 10px solid #314256;
   position: absolute;
   bottom: -10px;
   margin-left: -10px;
@@ -911,11 +912,11 @@ h1.logo img {
   color: #6c8198;
 }
 .modal .source a:hover {
-  color: #2f7ddb;
+  color: #314256;
 }
 /* ======= Projects Section ======= */
 .projects-section {
-  background: #f5f5f5;
+  background: #FDFDFD;
 }
 .projects-section .sub-title {
   font-size: 20px;
@@ -1005,7 +1006,7 @@ h1.logo img {
 }
 .photos-wrapper .item a {
   display: inline-block;
-  background: #113560;
+  background: #000000;
   max-width: 100%;
   overflow: hidden;
 }
@@ -1154,7 +1155,7 @@ h1.logo img {
 /* Large devices (large desktops, 1200px and up) */
 /* ======= Reviews Section ======= */
 .reviews-section {
-  background: #1c59a2;
+  background: #151d25;
   color: #fff;
 }
 .reviews-section .rating {
@@ -1212,7 +1213,7 @@ h1.logo img {
   padding: 0 15px;
 }
 .services-section .item-title {
-  color: #113560;
+  color: #000000;
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1220,7 +1221,7 @@ h1.logo img {
 .services-section .custom-icon {
   margin-bottom: 15px;
   display: inline-block;
-  color: #2f7ddb;
+  color: #314256;
   font-size: 68px;
 }
 .services-section .cta-area {
@@ -1299,7 +1300,7 @@ h1.logo img {
 /* old theme colors */
 /* ======= Why Section ======= */
 .why-section {
-  background: #2f7ddb;
+  background: #314256;
   color: #fff;
 }
 .why-section .section-title {
@@ -1309,7 +1310,7 @@ h1.logo img {
   max-width: 600px;
 }
 .reasons .fa-check {
-  color: #00c85d;
+  color: #7C8920;
 }
 .reasons .item {
   margin-bottom: 30px;
