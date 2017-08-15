@@ -1,6 +1,7 @@
 /* ======= About Section ======= */
 .about-section {
   background: #FDFDFD;
+  color: #6c8198;
 }
 .about-desc {
   max-width: 720px;
@@ -35,7 +36,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #314256;
+  color: #64727F;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -44,11 +45,11 @@ a {
 a:hover,
 a:active {
   text-decoration: underline;
-  color: #283646;
+  color: #596571;
 }
 a:focus {
   text-decoration: none;
-  color: #283646;
+  color: #596571;
   outline: none;
 }
 .btn,
@@ -69,7 +70,7 @@ a.btn-cta,
 }
 a.btn-primary,
 .btn-primary {
-  background: #7C8920;
+  background: #DADED0;
   border: none;
   color: #fff;
 }
@@ -79,14 +80,14 @@ a.btn-primary:active,
 .btn-primary:active,
 a.btn-primary:focus,
 .btn-primary:focus {
-  background: #69741b;
+  background: #ced3c1;
   border: none;
   color: #fff;
   outline: none;
 }
 a.btn-secondary,
 .btn-secondary {
-  background: #314256;
+  background: #64727F;
   border: none;
   color: #fff;
 }
@@ -96,7 +97,7 @@ a.btn-secondary:active,
 .btn-secondary:active,
 a.btn-secondary:focus,
 .btn-secondary:focus {
-  background: #283646;
+  background: #596571;
   border: none;
   color: #fff;
   outline: none;
@@ -149,7 +150,7 @@ textarea {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #1e2936;
+  background: #4e5862;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -166,7 +167,7 @@ textarea {
   background-clip: padding-box;
 }
 #topcontrol:hover {
-  background: #151d25;
+  background: #424c54;
   color: #fff;
 }
 #topcontrol .fa {
@@ -301,7 +302,7 @@ textarea {
 }
 /* ======= Callout Section ======= */
 .callout-section {
-  background: #314256;
+  background: #64727F;
   color: #fff;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -314,8 +315,10 @@ textarea {
 }
 /* ======= Contact Section ======= */
 .contact-section {
-  background: #314256;
-  color: #fff;
+  background: url('woodfloor.jpg');
+  background-size: 100% 100%;
+  color: #FDFDFD;
+  text-shadow: 1px 1px #000;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -331,7 +334,6 @@ textarea {
 .contact-form {
   max-width: 760px;
   padding: 60px;
-  background: rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -518,10 +520,11 @@ body {
 }
 /* ======= FAQs Section ======= */
 .faq-section {
-  background: #FDFDFD;
+  background-color: #FDFDFD;
 }
 .faq-section .section-title {
   margin-bottom: 60px;
+  color: #6c8198;
 }
 .faq-section .panel {
   -webkit-box-shadow: none;
@@ -533,10 +536,10 @@ body {
 }
 .faq-section .panel-title .fa {
   margin-right: 10px;
-  color: #343E49;
+  color: #6c8198;
 }
 .faq-section .panel-title a {
-  color: #314256;
+  color: #64727F;
 }
 .faq-section .panel-body {
   font-size: 14px;
@@ -545,9 +548,7 @@ body {
 }
 /* ======= Footer ======= */
 .footer {
-  background-image: url('woodfloor.jpg');
-  background-size: contain;
-  background-repeat: repeat;
+  background-color: #64727F;
   font-size: 14px;
 }
 .footer a {
@@ -596,6 +597,7 @@ body {
 }
 .footer-col .business-hours-list li {
   margin-bottom: 10px;
+  color: #fff;
 }
 .footer-col .intro {
   margin-bottom: 15px;
@@ -614,9 +616,10 @@ body {
 .footer-main {
   padding-bottom: 60px;
   padding-top: 60px;
+  color: #fff;
 }
 .bottombar {
-  background: #000000;
+  background: #14181d;
   padding-top: 15px;
   padding-bottom: 15px;
   color: rgba(255, 255, 255, 0.4);
@@ -641,11 +644,11 @@ body {
   margin-bottom: 0;
 }
 .footer-menu a {
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
 /* ====== Header ======= */
 .topbar {
-  background: #1e2936;
+  background: #314256;
   color: #fff;
   position: fixed;
   top: 0;
@@ -691,17 +694,21 @@ body {
   color: #fff;
 }
 .branding {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: url('woodfloor.jpg');
+  background-size: cover;
 }
 h1.logo {
-  margin: 0;
+  margin-left: 3em;
 }
 h1.logo img {
   vertical-align: inherit;
 }
 .header-info-list {
   margin-bottom: 0;
+  margin-top: 3em;
 }
 .header-info-list .info-item {
   position: relative;
@@ -710,34 +717,34 @@ h1.logo img {
   margin-right: 30px;
 }
 .header-info-list .info-item:last-child {
-  margin-right: 0;
+  margin-right: 3em;
 }
 .header-info-list .info-item a {
-  color: #343E49;
+  color: #fff;
 }
 .header-info-list .info-main {
   display: block;
-  color: #343E49;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
 }
 .header-info-list .info-main a {
-  color: #343E49;
+  color: #fff;
 }
 .header-info-list .info-sub {
   display: block;
-  color: #6c8198;
+  color: #fff;
   font-size: 14px;
 }
 .header-info-list .info-sub a {
-  color: #6c8198;
+  color: #fff;
 }
 .header-info-list .custom-icon {
   font-size: 34px;
   position: absolute;
   left: 0;
   top: 0;
-  color: #314256;
+  color: #fff;
 }
 /* ====== Nav ======= */
 .navbar-header {
@@ -857,11 +864,11 @@ h1.logo img {
   margin-bottom: 15px;
 }
 .modal .rating .fa {
-  color: #FEB415;
+  color: #ffd700;
 }
 .modal .quote {
   border-left: none;
-  background: #314256;
+  background: #64727F;
   color: #fff;
   padding: 30px;
   font-size: 16px;
@@ -894,7 +901,7 @@ h1.logo img {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #314256;
+  border-top: 10px solid #64727F;
   position: absolute;
   bottom: -10px;
   margin-left: -10px;
@@ -912,11 +919,12 @@ h1.logo img {
   color: #6c8198;
 }
 .modal .source a:hover {
-  color: #314256;
+  color: #64727F;
 }
 /* ======= Projects Section ======= */
 .projects-section {
-  background: #FDFDFD;
+  background: #DEDED0;
+  color: #fff;
 }
 .projects-section .sub-title {
   font-size: 20px;
@@ -939,7 +947,7 @@ h1.logo img {
   display: block;
   width: 100%;
   height: 360px;
-  background: #fff;
+  background: #FDFDFD;
   margin-top: 280px;
   -webkit-transition: margin-top 0.4s ease-in-out;
   -moz-transition: margin-top 0.4s ease-in-out;
@@ -1006,7 +1014,8 @@ h1.logo img {
 }
 .photos-wrapper .item a {
   display: inline-block;
-  background: #000000;
+  background: url('woodfloor.jpg');
+  background-size: 100% 100%;
   max-width: 100%;
   overflow: hidden;
 }
@@ -1155,14 +1164,17 @@ h1.logo img {
 /* Large devices (large desktops, 1200px and up) */
 /* ======= Reviews Section ======= */
 .reviews-section {
-  background: #151d25;
+  background-image: url('woodfloor.jpg');
+  background-size: cover;
+  background-repeat: repeat;
   color: #fff;
+  font-weight: bold;
 }
 .reviews-section .rating {
   margin-bottom: 15px;
 }
 .reviews-section .rating .fa {
-  color: #FEB415;
+  color: #ffd700;
 }
 .reviews-section .owl-carousel .owl-item img.customer-profile {
   display: inline-block;
@@ -1185,18 +1197,19 @@ h1.logo img {
 .reviews-section .quote .fa-quote-left {
   position: absolute;
   left: 0;
-  color: rgba(255, 255, 255, 0.6);
-  color: rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
 .reviews-section .source {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.8);
 }
 .reviews-section .source a {
-  color: rgba(0, 0, 0, 0.6);
+  color: #FDFDFD;
+  opacity: 0.6;
 }
 .reviews-section .source a:hover {
   color: #fff;
+  opacity: 1;
 }
 .owl-theme .owl-dots .owl-dot span {
   background: rgba(255, 255, 255, 0.6);
@@ -1208,12 +1221,13 @@ h1.logo img {
 /* ======= Services Section ======= */
 .services-section .item {
   margin-bottom: 60px;
+  color: #6c8198;
 }
 .services-section .item-inner {
   padding: 0 15px;
 }
 .services-section .item-title {
-  color: #000000;
+  color: #6c8198;
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1221,7 +1235,7 @@ h1.logo img {
 .services-section .custom-icon {
   margin-bottom: 15px;
   display: inline-block;
-  color: #314256;
+  color: #64727F;
   font-size: 68px;
 }
 .services-section .cta-area {
@@ -1300,8 +1314,8 @@ h1.logo img {
 /* old theme colors */
 /* ======= Why Section ======= */
 .why-section {
-  background: #314256;
-  color: #fff;
+  background: #64727F;
+  color: #FDFDFD;
 }
 .why-section .section-title {
   margin-bottom: 30px;
@@ -1310,7 +1324,7 @@ h1.logo img {
   max-width: 600px;
 }
 .reasons .fa-check {
-  color: #7C8920;
+  color: #DADED0;
 }
 .reasons .item {
   margin-bottom: 30px;
@@ -1319,7 +1333,7 @@ h1.logo img {
   font-size: 18px;
 }
 .reasons .item-desc {
-  color: rgba(0, 0, 0, 0.5);
+  color: #FDFDFD;
   font-size: 14px;
 }
 .badges-list {

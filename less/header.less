@@ -1,10 +1,10 @@
 /* ====== Header ======= */
 .topbar {
-    background: darken(@color-primary, 10%);
+    background: @color-dark-blue;
     color: #fff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;    
     z-index: 20;
     &.topbar-scrolled {
         .box-shadow(0 0 4px rgba(0, 0, 0, 0.5));
@@ -12,7 +12,7 @@
     .social-container {
         position: absolute;
         right: 30px;
-        top: 9px;
+        top: 9px;       
     }
     .social-list {
         margin-bottom: 0;
@@ -27,8 +27,7 @@
             text-align: center;
             padding-top:4px;
             .fa {
-                color: rgba(256, 256, 256, 0.8);
-                
+                color: rgba(256, 256, 256, 0.8);                
             }
             &:hover {
                 background: rgba(256, 256, 256, 0.2);
@@ -42,12 +41,17 @@
 }
 
 .branding {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;    
+    background: url('woodfloor.jpg');
+    background-size: cover;
+   
+
 }
 
 h1.logo {
-    margin: 0;
+    margin-left: 3em;
     img {
         vertical-align:inherit;
     }
@@ -55,33 +59,34 @@ h1.logo {
 
 .header-info-list {
     margin-bottom: 0;
+    margin-top: 3em;
     .info-item {
         position: relative;
         padding-left: 42px;
         line-height: 1.2;
         margin-right: 30px;
         &:last-child {
-            margin-right: 0;
+            margin-right: 3em;
         }
         a {
-            color: @text-color-primary;
+            color: #fff;
         }
     }
     .info-main {
         display: block;
-        color: @text-color-primary;
+        color: #fff;
         font-weight: bold;
         font-size: 16px;
         a {
-            color: @text-color-primary;
+            color: #fff;
         }
     }
     .info-sub{
         display: block;
-        color: @text-color-secondary;
+        color: #fff;
         font-size: 14px;
         a {
-            color: @text-color-secondary;
+            color: #fff;
         }
     }
     .custom-icon {
@@ -89,7 +94,7 @@ h1.logo {
         position: absolute;
         left: 0;
         top: 0;
-        color: @color-primary;
+        color: #fff;
     }
 }
 
@@ -131,7 +136,7 @@ h1.logo {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
 .nav>li>a {

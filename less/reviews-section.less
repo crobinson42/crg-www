@@ -1,11 +1,14 @@
 /* ======= Reviews Section ======= */
 .reviews-section {
-    background: darken(@color-primary, 15%);
+    background-image: url('woodfloor.jpg');
+    background-size: cover;
+    background-repeat: repeat;
     color: #fff;
+    font-weight: bold;
     .rating {
         margin-bottom: 15px;
         .fa {
-            color: @color-rating;
+            color: #ffd700;
         }
     }
     
@@ -31,8 +34,8 @@
         .fa-quote-left {
             position: absolute;
             left: 0;
-            color: rgba(256, 256, 256, 0.6);
-            color: rgba(0, 0, 0, 0.4);
+            color: #fff;
+            color: #fff;
         }
     }
     
@@ -40,9 +43,11 @@
         font-size: 12px;
         color: rgba(256, 256, 256, 0.8);
         a {
-            color: rgba(0, 0, 0, 0.6);
+            color: @smoky-white;
+            opacity: 0.6;
             &:hover {
                 color: #fff;
+                opacity: 1;
             }
         }
     }
