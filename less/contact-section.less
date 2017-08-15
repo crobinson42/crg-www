@@ -1,9 +1,8 @@
 /* ======= Contact Section ======= */
 .contact-section {
-    background: url('woodfloor.jpg');
+    background: @light-taupe;
     background-size: 100% 100%;
-    color: @smoky-white;
-    text-shadow: 1px 1px #000;
+    color: @smoky-white;    
     padding-top: 90px;
     padding-bottom: 90px;
     .contact-title {
@@ -21,10 +20,19 @@
 .contact-form {
     max-width: 760px;
     padding: 60px;
- 
+    background: @taupe;
     .border-radius(4px);
     margin: 0 auto;
     margin-bottom: 30px;
+}
+
+#contact-button {
+    background: #fff;
+    color: @taupe;
+}
+
+#contact-button:hover, #contact-button:active {
+    background: darken(#fff, 20%);
 }
 
 .contact-info-list {
@@ -37,7 +45,7 @@
         .border-radius(50%);
         display: inline-block;
         margin: 0 auto;
-        color:#fff;
+        color: @smoky-white;
         font-size: 24px;
         margin-bottom: 15px;
         font-weight:600;
@@ -60,7 +68,7 @@
     }
     
     a {
-        color: #fff;
+        color: @smoky-white;
     }
 }
 
