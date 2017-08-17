@@ -8,7 +8,7 @@ var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
 var today = new Date();
 var dayOfWeek = weekdays[today.getDay()];
 var myMessage = document.getElementById('message');
-var message = "We're open, come on over!";
+var open = "We're open, come on over!";
 var closed = "Sorry, we're closed";
 var dayOfWeek = new Date().getDay();
 var timeOffset = new Date().getTimezoneOffset() * 60000;
@@ -22,7 +22,7 @@ console.log(dayOfWeek);
 console.log(UTCHour);
 
     if (UTCHour > 7 && UTCHour < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
-          myMessage.innerHTML = message;
+          myMessage.innerHTML = open;
         } else {
           myMessage.innerHTML = closed;
         }  
