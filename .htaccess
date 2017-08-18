@@ -6,3 +6,9 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
 RewriteRule ^ https://www.%1%{REQUEST_URI} [R=301,L,NE]
 </IfModule>
+
+<FilesMatch "\.(ttf|woff|eot)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>

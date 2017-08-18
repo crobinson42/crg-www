@@ -1,7 +1,7 @@
 /* ======= About Section ======= */
 .about-section {
   background: #FDFDFD;
-  color: #6c8198;
+  color: #575350;
 }
 .about-desc {
   max-width: 720px;
@@ -17,7 +17,7 @@
 /* ======= Base ======= */
 body {
   font-family: 'Lato', sans-serif;
-  color: #343E49;
+  color: #201407;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,7 +36,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #64727F;
+  color: #FDFDFD;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -70,7 +70,7 @@ a.btn-cta,
 }
 a.btn-primary,
 .btn-primary {
-  background: #DADED0;
+  background: #575350;
   border: none;
   color: #fff;
 }
@@ -80,16 +80,16 @@ a.btn-primary:active,
 .btn-primary:active,
 a.btn-primary:focus,
 .btn-primary:focus {
-  background: #ced3c1;
+  background: #4a4644;
   border: none;
   color: #fff;
   outline: none;
 }
 a.btn-secondary,
 .btn-secondary {
-  background: #64727F;
+  background: #94887F;
   border: none;
-  color: #fff;
+  color: #FDFDFD;
 }
 a.btn-secondary:hover,
 .btn-secondary:hover,
@@ -97,9 +97,9 @@ a.btn-secondary:active,
 .btn-secondary:active,
 a.btn-secondary:focus,
 .btn-secondary:focus {
-  background: #596571;
+  background: #887b72;
   border: none;
-  color: #fff;
+  color: #FDFDFD;
   outline: none;
 }
 .form-control {
@@ -125,6 +125,11 @@ a.btn-secondary:focus,
 .form-control:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #ccc;
+}
+@font-face {
+  font-family: 'BoxerScriptJF';
+  src: url('@fonts/BoxerScriptJF.woff') format('woff');
+  src: url('@fonts/BoxerScriptJF.eot') format('embedded-opentype');
 }
 .form-control:focus {
   border-color: #bfbfbf;
@@ -302,8 +307,8 @@ textarea {
 }
 /* ======= Callout Section ======= */
 .callout-section {
-  background: #64727F;
-  color: #fff;
+  background: #292929;
+  color: #FDFDFD;
   padding-top: 45px;
   padding-bottom: 45px;
 }
@@ -315,10 +320,9 @@ textarea {
 }
 /* ======= Contact Section ======= */
 .contact-section {
-  background: url('woodfloor.jpg');
+  background: #EDEAE8;
   background-size: 100% 100%;
   color: #FDFDFD;
-  text-shadow: 1px 1px #000;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -334,6 +338,7 @@ textarea {
 .contact-form {
   max-width: 760px;
   padding: 60px;
+  background: #575350;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -344,6 +349,14 @@ textarea {
   background-clip: padding-box;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+#contact-button {
+  background: #fff;
+  color: #575350;
+}
+#contact-button:hover,
+#contact-button:active {
+  background: #cccccc;
 }
 .contact-info-list {
   margin-bottom: 30px;
@@ -363,7 +376,7 @@ textarea {
   background-clip: padding-box;
   display: inline-block;
   margin: 0 auto;
-  color: #fff;
+  color: #FDFDFD;
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 600;
@@ -384,7 +397,7 @@ textarea {
   margin-right: 0;
 }
 .contact-info-list a {
-  color: #fff;
+  color: #FDFDFD;
 }
 .contact-form label.error {
   font-size: 14px;
@@ -524,7 +537,7 @@ body {
 }
 .faq-section .section-title {
   margin-bottom: 60px;
-  color: #6c8198;
+  color: #575350;
 }
 .faq-section .panel {
   -webkit-box-shadow: none;
@@ -536,10 +549,10 @@ body {
 }
 .faq-section .panel-title .fa {
   margin-right: 10px;
-  color: #6c8198;
+  color: #575350;
 }
 .faq-section .panel-title a {
-  color: #64727F;
+  color: #575350;
 }
 .faq-section .panel-body {
   font-size: 14px;
@@ -548,7 +561,7 @@ body {
 }
 /* ======= Footer ======= */
 .footer {
-  background-color: #64727F;
+  background: url('dkfloor.jpg');
   font-size: 14px;
 }
 .footer a {
@@ -617,9 +630,10 @@ body {
   padding-bottom: 60px;
   padding-top: 60px;
   color: #fff;
+  font-weight: bold;
 }
 .bottombar {
-  background: #14181d;
+  background: #191919;
   padding-top: 15px;
   padding-bottom: 15px;
   color: rgba(255, 255, 255, 0.4);
@@ -648,7 +662,7 @@ body {
 }
 /* ====== Header ======= */
 .topbar {
-  background: #314256;
+  background: #191919;
   color: #fff;
   position: fixed;
   top: 0;
@@ -697,7 +711,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background: url('woodfloor.jpg');
+  background: url('dkfloor.jpg');
   background-size: cover;
   color: #fff;
 }
@@ -924,8 +938,8 @@ h1.logo img {
 }
 /* ======= Projects Section ======= */
 .projects-section {
-  background: #DEDED0;
-  color: #fff;
+  background: #575350;
+  color: #FDFDFD;
 }
 .projects-section .sub-title {
   font-size: 20px;
@@ -965,6 +979,7 @@ h1.logo img {
   margin: 0;
   font-size: 18px;
   padding-bottom: 30px;
+  font-family: 'BoxerScriptJF';
 }
 .projects-section .info-mask .desc {
   margin-bottom: 15px;
@@ -1034,12 +1049,12 @@ h1.logo img {
 }
 /* ======= Promo Section ======= */
 .promo-section {
-  background: #343E49;
+  background: #FDFDFD;
   position: relative;
 }
 .hero-carousel {
   height: 520px;
-  color: #fff;
+  color: #FDFDFD;
 }
 .hero-carousel .carousel-inner .item {
   height: 520px;
@@ -1089,12 +1104,23 @@ h1.logo img {
   font-size: 32px;
   line-height: 1.2;
   font-weight: 900;
-  margin-top: 0;
+  margin-top: 1.75em;
   margin-bottom: 15px;
 }
 .hero-carousel .carousel-inner .intro {
   font-size: 18px;
   margin-bottom: 30px;
+}
+@font-face {
+  font-family: "BoxerScriptJF";
+  src: url(assets/css/boxerscript.ttf);
+}
+.hero-carousel .carousel-inner .boxer-font {
+  font-family: "BoxerScriptJF";
+  font-size: 45px;
+}
+.hero-carousel .carousel-inner .heading h2 {
+  font-family: 'BoxerScriptJF', 'Lato';
 }
 /* Hack - http://stackoverflow.com/questions/33494764/owl-carousel-2-resize-window-bug */
 .owl-carousel .owl-item img {
@@ -1190,10 +1216,10 @@ h1.logo img {
 /* Large devices (large desktops, 1200px and up) */
 /* ======= Reviews Section ======= */
 .reviews-section {
-  background-image: url('woodfloor.jpg');
+  background: url('dkfloor.jpg');
   background-size: cover;
   background-repeat: repeat;
-  color: #fff;
+  color: #FDFDFD;
   font-weight: bold;
 }
 .reviews-section .rating {
@@ -1245,15 +1271,18 @@ h1.logo img {
   background: rgba(0, 0, 0, 0.4);
 }
 /* ======= Services Section ======= */
+.services-section #services-intro,
+.services-section #services {
+  color: #575350;
+}
 .services-section .item {
   margin-bottom: 60px;
-  color: #6c8198;
 }
 .services-section .item-inner {
   padding: 0 15px;
 }
 .services-section .item-title {
-  color: #6c8198;
+  color: #281a08;
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1261,7 +1290,7 @@ h1.logo img {
 .services-section .custom-icon {
   margin-bottom: 15px;
   display: inline-block;
-  color: #64727F;
+  color: #201407;
   font-size: 68px;
 }
 .services-section .cta-area {
@@ -1340,7 +1369,7 @@ h1.logo img {
 /* old theme colors */
 /* ======= Why Section ======= */
 .why-section {
-  background: #64727F;
+  background: #292929;
   color: #FDFDFD;
 }
 .why-section .section-title {
@@ -1350,7 +1379,7 @@ h1.logo img {
   max-width: 600px;
 }
 .reasons .fa-check {
-  color: #DADED0;
+  color: #575350;
 }
 .reasons .item {
   margin-bottom: 30px;
