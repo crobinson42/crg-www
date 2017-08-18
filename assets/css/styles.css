@@ -1106,7 +1106,7 @@ h1.logo img {
   font-size: 32px;
   line-height: 1.2;
   font-weight: 900;
-  margin-top: 2.5em;
+  margin-top: 1.75em;
   margin-bottom: 15px;
 }
 .hero-carousel .carousel-inner .intro {
@@ -1114,9 +1114,12 @@ h1.logo img {
   margin-bottom: 30px;
 }
 @font-face {
-  font-family: 'BoxerScriptJF';
-  src: url('BoxerScriptJF.woff') format('woff');
-  src: url('BoxerScriptJF.eot') format('embedded-opentype');
+  font-family: "BoxerScriptJF";
+  src: url(assets/css/boxerscript.ttf);
+}
+.hero-carousel .carousel-inner .boxer-font {
+  font-family: "BoxerScriptJF";
+  font-size: 45px;
 }
 .hero-carousel .carousel-inner .heading h2 {
   font-family: 'BoxerScriptJF', 'Lato';

@@ -47,7 +47,7 @@
             font-size: 32px;
             line-height: 1.2;
             font-weight: 900;
-            margin-top:2.5em;
+            margin-top:1.75em;
             margin-bottom: 15px;                     
         }
 
@@ -56,15 +56,19 @@
             margin-bottom: 30px;            
         }
 
-                @font-face {
-        font-family: 'BoxerScriptJF';        
-        src: url('BoxerScriptJF.woff') format('woff');
-        src: url('BoxerScriptJF.eot') format('embedded-opentype');
-        }  
-
-        .heading h2 {
-            font-family: 'BoxerScriptJF', 'Lato';
+        @font-face {
+            font-family: "BoxerScriptJF";
+            src: url(assets/css/boxerscript.ttf);
         }
+
+        .boxer-font {
+            font-family: "BoxerScriptJF";
+            font-size: 45px;
+        }
+
+            .heading h2 {
+                font-family: 'BoxerScriptJF', 'Lato';
+            }
     }
 
 }
