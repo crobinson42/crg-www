@@ -713,6 +713,7 @@ body {
   width: 100%;
   background: url('dkfloor.jpg');
   background-size: cover;
+  color: #fff;
 }
 h1.logo {
   margin-left: 3em;
@@ -722,7 +723,7 @@ h1.logo img {
 }
 .header-info-list {
   margin-bottom: 0;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 .header-info-list .info-item {
   position: relative;
@@ -953,9 +954,6 @@ h1.logo img {
   height: 360px;
   overflow: hidden;
 }
-.projects-section .project-item:hover .info-mask {
-  margin-top: 0;
-}
 .projects-section .info-mask {
   position: absolute;
   display: block;
@@ -1138,25 +1136,34 @@ h1.logo img {
   .branding {
     text-align: center;
   }
-  .business-hours .icon-clock {
+  li {
     margin-left: 3em;
+    color: #fff;
+    font-family: 'Lato';
   }
-  .business-hours .phone-number {
-    margin-left: 4.75em;
-    margin-bottom: .5em;
+  #message {
+    margin-left: 1em;
+    font-family: 'Lato';
+    color: #fff;
   }
-  .business-hours .info-sub {
-    margin-left: 3.5em;
+  .icon-clock {
+    margin-left: 5em;
   }
-  .contact-methods .info-sub {
-    margin-right: 1.75em;
+  .hours {
+    margin-bottom: 0.5em;
+  }
+  .info-weekdays {
+    margin-right: 22px;
+  }
+  #email-address {
+    margin-right: 80px;
   }
   .contact-methods .icon-telephone_signal {
-    margin-left: 2.6em;
+    margin-left: 4.5em;
   }
   .contact-methods .phone-number {
-    margin-left: 4em;
     margin-bottom: .5em;
+    margin-right: 2.5em;
   }
   h1.logo {
     float: none !important;
@@ -1169,8 +1176,7 @@ h1.logo img {
   .header-info-list {
     margin: 0 auto;
     float: none !important;
-    text-align: left;
-    display: inline-block;
+    text-align: center;
   }
   .header-info-list .custom-icon {
     font-size: 26px;

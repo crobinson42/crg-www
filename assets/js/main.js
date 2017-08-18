@@ -1,5 +1,35 @@
 $(document).ready(function() {
-    
+
+    /* ======= Open/Close Message ======= */
+
+function timeInPac() {
+
+var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var today = new Date();
+var dayOfWeek = weekdays[today.getDay()];
+var myMessage = document.getElementById('message');
+var open = "We're open, come on over!";
+var closed = "Sorry, we're closed";
+var dayOfWeek = new Date().getDay();
+var timeOffset = new Date().getTimezoneOffset() * 60000;
+var localTime = new Date().getTime();
+var myUTC = localTime + timeOffset;
+var pacific = -7 * 3600000;
+var pacUTC = new Date(myUTC + pacific);
+var UTCHour = pacUTC.getHours();
+
+console.log(dayOfWeek);
+console.log(UTCHour);
+
+    if (UTCHour > 7 && UTCHour < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
+          myMessage.innerHTML = open;
+        } else {
+          myMessage.innerHTML = closed;
+        }  
+        return UTCHour;      
+      }
+
+timeInPac();    
     
     /* ======= Scrollspy ======= */
    $('body').scrollspy({ target: '#topbar', offset: 100});
