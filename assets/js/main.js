@@ -14,19 +14,22 @@ var dayOfWeek = new Date().getDay();
 var timeOffset = new Date().getTimezoneOffset() * 60000;
 var localTime = new Date().getTime();
 var myUTC = localTime + timeOffset;
-var pacific = -7 * 3600000;
-var pacUTC = new Date(myUTC + pacific);
-var UTCHour = pacUTC.getHours();
+//var pacific = -7 * 3600000;
+//var pacUTC = new Date(myUTC + pacific);
+//var UTCHour = pacUTC.getHours();
+
+var UTCHour = new Date(myUTC);
+var UTCTime = UTCHour.getHours();
 
 console.log(dayOfWeek);
-console.log(UTCHour);
+console.log(UTCTime);
 
-    if (UTCHour > 7 && UTCHour < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
+    if (UTCTime > 7 && UTCTime < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
           myMessage.innerHTML = open;
         } else {
           myMessage.innerHTML = closed;
         }  
-        return UTCHour;      
+        return UTCTime;      
       }
 
 timeInPac();    
