@@ -320,7 +320,7 @@ textarea {
 }
 /* ======= Contact Section ======= */
 .contact-section {
-  background: #EDEAE8;
+  background: grey;
   background-size: 100% 100%;
   color: #FDFDFD;
   padding-top: 90px;
@@ -404,6 +404,14 @@ textarea {
   font-family: 'Lato', sans-serif;
   color: #CD3D2B;
   margin-top: 5px;
+}
+@font-face {
+  font-family: "BoxerScriptJF";
+  src: url(boxerscript.ttf);
+}
+/* class to use on elements */
+.boxer-font {
+  font-family: "BoxerScriptJF";
 }
 /* ======= Configure Style (Remove in production) ======= */
 body {
@@ -711,7 +719,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background: url('dkfloor.jpg');
+  background: #575350;
   background-size: cover;
   color: #fff;
 }
@@ -1117,7 +1125,7 @@ h1.logo img {
 }
 .hero-carousel .carousel-inner .boxer-font {
   font-family: "BoxerScriptJF";
-  font-size: 45px;
+  font-size: 60px;
 }
 .hero-carousel .carousel-inner .heading h2 {
   font-family: 'BoxerScriptJF', 'Lato';
