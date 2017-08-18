@@ -361,6 +361,7 @@ textarea {
 .contact-info-list {
   margin-bottom: 30px;
   margin-bottom: 45px;
+  margin-left: 65px;
 }
 .contact-info-list .custom-icon {
   width: 46px;
@@ -1200,6 +1201,19 @@ h1.logo img {
   .contact-form {
     padding: 0px;
     background: none;
+  }
+  .contact-info-list {
+    margin-right: 4.5em;
+  }
+  .contact-info-list .info {
+    margin-right: 1.75em;
+  }
+  #email-icon-contact {
+    margin-right: 1.25em;
+    margin-top: 15px;
+  }
+  .contact-info-list .item #phone-number {
+    margin-left: 0.75em;
   }
   .footer-col {
     margin-bottom: 30px;
