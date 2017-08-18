@@ -940,9 +940,6 @@ h1.logo img {
   height: 360px;
   overflow: hidden;
 }
-.projects-section .project-item:hover .info-mask {
-  margin-top: 0;
-}
 .projects-section .info-mask {
   position: absolute;
   display: block;
