@@ -1,0 +1,164 @@
+/* ====== Header ======= */
+.topbar {
+    background: @color-dark-blue;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    z-index: 20;
+    &.topbar-scrolled {
+        .box-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+    }
+    .social-container {
+        position: absolute;
+        right: 30px;
+        top: 9px;       
+    }
+    .social-list {
+        margin-bottom: 0;
+    }
+    .social-item {
+        a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            .border-radius(50%);
+            background: rgba(256, 256, 256, 0.2);
+            text-align: center;
+            padding-top:4px;
+            .fa {
+                color: rgba(256, 256, 256, 0.8);                
+            }
+            &:hover {
+                background: rgba(256, 256, 256, 0.2);
+                .fa {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+}
+
+.branding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;    
+    background: url('woodfloor.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+h1.logo {
+    margin-left: 3em;
+    img {
+        vertical-align:inherit;
+    }
+}
+
+.header-info-list {
+    margin-bottom: 0;
+    margin-top: 1em;
+    .info-item {
+        position: relative;
+        padding-left: 42px;
+        line-height: 1.2;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 3em;
+        }
+        a {
+            color: #fff;
+        }
+    }
+
+
+
+    .info-main {
+        display: block;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        a {
+            color: #fff;
+        }
+    }
+    .info-sub{
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        a {
+            color: #fff;
+        }
+    }
+
+    .custom-icon {
+        font-size: 34px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #fff;
+    }
+}
+
+
+
+/* ====== Nav ======= */
+.navbar-header {
+    height: 50px;
+}
+.navbar-toggle {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    background: none;
+    position: relative;
+    top: 8px;
+    
+    &:focus {
+        outline: none;
+    }
+
+    .icon-bar-wrapper {
+        float: left;
+    }
+    
+    .icon-bar {
+        background: #fff;
+    }
+    
+    &:hover {
+        .icon-bar {
+            .opacity(1);
+        }
+    }
+    
+}
+
+.navbar-nav {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;   
+}
+
+.nav>li>a {
+    color: rgba(256, 256, 256, 0.7);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform:uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background: none;
+    outline: none;
+}
+
+.nav>li.active>a {
+    color: #fff;
+}
+

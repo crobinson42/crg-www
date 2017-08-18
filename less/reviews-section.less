@@ -1,0 +1,62 @@
+/* ======= Reviews Section ======= */
+.reviews-section {
+    background-image: url('woodfloor.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    font-weight: bold;
+    .rating {
+        margin-bottom: 15px;
+        .fa {
+            color: #ffd700;
+        }
+    }
+    
+    .owl-carousel .owl-item img.customer-profile {
+        display: inline-block;
+        margin: 0 auto;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .inner {
+        padding: 30px;
+    }
+    
+    .quote {
+        border-left: none;
+        padding: 0;
+        font-size: 14px;
+        position: relative;
+        padding-left: 20px;
+        text-align: left;
+        .fa-quote-left {
+            position: absolute;
+            left: 0;
+            color: #fff;
+            color: #fff;
+        }
+    }
+    
+    .source {
+        font-size: 12px;
+        color: rgba(256, 256, 256, 0.8);
+        a {
+            color: @smoky-white;
+            opacity: 0.6;
+            &:hover {
+                color: #fff;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: rgba(256, 256, 256, 0.6);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgba(0, 0, 0, 0.4);
+}
+

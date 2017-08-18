@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?ewu39h');
+    src:    url('fonts/icomoon.eot?ewu39h#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?ewu39h') format('truetype'),
+        url('fonts/icomoon.woff?ewu39h') format('woff'),
+        url('fonts/icomoon.svg?ewu39h#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle_grinder:before {
+    content: "\e900";
+}
+.icon-axe:before {
+    content: "\e901";
+}
+.icon-chisels:before {
+    content: "\e902";
+}
+.icon-circular_saw:before {
+    content: "\e903";
+}
+.icon-clock:before {
+    content: "\e904";
+}
+.icon-club_hammer:before {
+    content: "\e905";
+}
+.icon-digger:before {
+    content: "\e906";
+}
+.icon-drill_bits:before {
+    content: "\e907";
+}
+.icon-dump_truck:before {
+    content: "\e908";
+}
+.icon-electric_drill:before {
+    content: "\e909";
+}
+.icon-electric_jigsaw:before {
+    content: "\e90a";
+}
+.icon-email:before {
+    content: "\e90b";
+}
+.icon-goggles_mask:before {
+    content: "\e90c";
+}
+.icon-hammer_chisel:before {
+    content: "\e90d";
+}
+.icon-hammer_screwdriver_2:before {
+    content: "\e90e";
+}
+.icon-hammer_screwdriver:before {
+    content: "\e90f";
+}
+.icon-hammer:before {
+    content: "\e910";
+}
+.icon-helmet_goggles:before {
+    content: "\e911";
+}
+.icon-information:before {
+    content: "\e912";
+}
+.icon-jack_hammer:before {
+    content: "\e913";
+}
+.icon-ladder:before {
+    content: "\e914";
+}
+.icon-level:before {
+    content: "\e915";
+}
+.icon-map_pin:before {
+    content: "\e916";
+}
+.icon-paint_brush:before {
+    content: "\e917";
+}
+.icon-paint_brushes:before {
+    content: "\e918";
+}
+.icon-paint_roller:before {
+    content: "\e919";
+}
+.icon-paint_tin:before {
+    content: "\e91a";
+}
+.icon-pliers:before {
+    content: "\e91b";
+}
+.icon-plumb_line:before {
+    content: "\e91c";
+}
+.icon-protractor:before {
+    content: "\e91d";
+}
+.icon-retractable_knife:before {
+    content: "\e91e";
+}
+.icon-ruler_pencil:before {
+    content: "\e91f";
+}
+.icon-safety_barrier:before {
+    content: "\e920";
+}
+.icon-safety_cone:before {
+    content: "\e921";
+}
+.icon-safety_helmet:before {
+    content: "\e922";
+}
+.icon-safety_jacket:before {
+    content: "\e923";
+}
+.icon-sand_shovel:before {
+    content: "\e924";
+}
+.icon-saw:before {
+    content: "\e925";
+}
+.icon-screwdriver:before {
+    content: "\e926";
+}
+.icon-screwdrivers:before {
+    content: "\e927";
+}
+.icon-screws:before {
+    content: "\e928";
+}
+.icon-set_square:before {
+    content: "\e929";
+}
+.icon-shovel:before {
+    content: "\e92a";
+}
+.icon-spade_fork:before {
+    content: "\e92b";
+}
+.icon-spanner_screwdriver:before {
+    content: "\e92c";
+}
+.icon-spanner:before {
+    content: "\e92d";
+}
+.icon-square_woodwork:before {
+    content: "\e92e";
+}
+.icon-swiss_army_knife:before {
+    content: "\e92f";
+}
+.icon-tape_measure:before {
+    content: "\e930";
+}
+.icon-telephone_signal:before {
+    content: "\e931";
+}
+.icon-telephone:before {
+    content: "\e932";
+}
+.icon-toolbox:before {
+    content: "\e933";
+}
+.icon-u_bend:before {
+    content: "\e934";
+}
+.icon-warning_danger:before {
+    content: "\e935";
+}
+.icon-warning_electricity:before {
+    content: "\e936";
+}
+.icon-wheel_barrow:before {
+    content: "\e937";
+}
+.icon-workman:before {
+    content: "\e938";
+}
+

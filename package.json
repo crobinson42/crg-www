@@ -1,0 +1,26 @@
+{
+  "name": "crg-www",
+  "version": "1.0.0",
+  "description": "Public facing website",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crobinson42/crg-www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crobinson42/crg-www/issues"
+  },
+  "homepage": "https://github.com/crobinson42/crg-www#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-less-import": "^1.0.0"
+  }
+}
