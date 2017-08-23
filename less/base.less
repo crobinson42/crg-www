@@ -1,7 +1,7 @@
 /* ======= Base ======= */
 body {
     font-family: 'Lato', sans-serif;
-    color: @text-color-primary;
+    color: #201407;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -18,7 +18,7 @@ p {
 }
 
 a {
-    color: @color-primary;
+    color: @smoky-white;
     .transition (all 0.4s ease-in-out);
     &:hover, &:active {
         text-decoration: underline;
@@ -46,27 +46,28 @@ a.btn-cta, .btn-cta {
 }
 
 a.btn-primary, .btn-primary { 
-    background: @color-secondary;
+    background: @taupe;
     border: none;
     color: #fff;
 
     &:hover, &:active, &:focus {
-        background: darken(@color-secondary, 5%);
+        background: darken(@taupe, 5%);
         border: none;
         color: #fff;
         outline: none;
     }
-}
+}  
+
 
 a.btn-secondary, .btn-secondary { 
-    background: @color-primary;
+    background: @medium-brown;
     border: none;
-    color: #fff;
+    color: @smoky-white;
 
     &:hover, &:active, &:focus {
-        background: darken(@color-primary, 5%);
+        background: darken(@medium-brown, 5%);
         border: none;
-        color: #fff;
+        color: @smoky-white;
         outline: none;
     }
 }
@@ -255,7 +256,7 @@ textarea
     font-size: 28px;
     max-width: 760px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
 
 .section-intro {
@@ -264,7 +265,7 @@ textarea
     font-size: 16px;
     max-width: 760px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
 }
 
 
