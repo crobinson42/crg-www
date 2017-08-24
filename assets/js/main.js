@@ -21,7 +21,7 @@ var UTCHour = pacUTC.getHours();
 console.log(dayOfWeek);
 console.log(UTCHour);
 
-    if (UTCHour > 7 && UTCHour < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
+    if (UTCHour >= 7 && UTCHour < 17 && dayOfWeek !== 1 && dayOfWeek !== 0) {
           myMessage.innerHTML = open;
         } else {
           myMessage.innerHTML = closed;
