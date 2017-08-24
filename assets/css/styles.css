@@ -318,6 +318,60 @@ textarea {
 .callout-btn {
   margin-top: 15px;
 }
+#careers {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #EDEAE8;
+  color: gray;
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.industry-description h2.section-title {
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 70px;
+  font-size: 32px;
+}
+.industry-description p {
+  padding: 70px;
+  line-height: 2.75;
+  font-size: 110%;
+  font-weight: 700;
+  background: #FDFDFD;
+  margin-bottom: 25px;
+  text-indent: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+.email-icon {
+  width: 46px;
+  height: 46px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: inline-block;
+  margin: 0 auto;
+  color: #FDFDFD;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+  text-indent: 0;
+}
+.email-info {
+  color: gray;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 105%;
+  font-family: 'Helvetica Neue', sans-serif;
+}
 /* ======= Contact Section ======= */
 .contact-section {
   background: grey;
@@ -1168,6 +1222,9 @@ h1.logo img {
   }
   #email-address {
     margin-right: 80px;
+  }
+  .email-info {
+    padding-left: 0;
   }
   .contact-methods .icon-telephone_signal {
     margin-left: 5.5em;
