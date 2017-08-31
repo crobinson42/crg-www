@@ -320,7 +320,7 @@ textarea {
 }
 #careers {
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/careers/contractor.jpg');
   background-size: cover;
@@ -364,10 +364,11 @@ textarea {
 .industry-description.career-section-mail a {
   color: #FDFDFD;
   padding-left: 10px;
-  font-size: 120%;
+  font-size: 16px;
   font-weight: 700;
   font-family: 'Helvetica Neue', sans-serif;
   -webkit-transition: all 0.4s ease-in-out;
+  margin-bottom: 50px;
 }
 a:hover.career-section-mail {
   opacity: 0.6;
