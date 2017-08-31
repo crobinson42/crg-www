@@ -320,26 +320,23 @@ textarea {
 }
 #careers {
   padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #EDEAE8;
-  color: gray;
+  padding-bottom: 30px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/careers/contractor.jpg');
+  background-size: cover;
   font-family: 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .industry-description h2.section-title {
   font-weight: 900;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 70px;
   font-size: 32px;
 }
 .industry-description p {
-  padding: 70px;
+  padding: 30px 70px 10px 70px;
   line-height: 2.75;
   font-size: 110%;
   font-weight: 700;
-  background: #FDFDFD;
-  margin-bottom: 25px;
   text-indent: 30px;
   border-radius: 5px;
   text-align: center;
@@ -347,7 +344,7 @@ textarea {
 .email-icon {
   width: 46px;
   height: 46px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #333;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -360,17 +357,29 @@ textarea {
   margin: 0 auto;
   color: #FDFDFD;
   font-size: 24px;
-  margin-bottom: 15px;
   font-weight: 600;
   padding-top: 10px;
   text-indent: 0;
 }
-.email-info {
-  color: gray;
-  font-weight: bold;
+.industry-description.career-section-mail span,
+a {
+  color: #FDFDFD;
   padding-left: 10px;
-  font-size: 105%;
+  font-size: 120%;
+  font-weight: 700;
   font-family: 'Helvetica Neue', sans-serif;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+a:hover.career-section-mail {
+  opacity: 0.6;
+  color: #FDFDFD;
+}
+.career-section-mail a:visited {
+  color: #FDFDFD;
+}
+.industry-description.careers-section-mail span,
+a:visited {
+  color: #F7F7F7;
 }
 /* ======= Contact Section ======= */
 .contact-section {
