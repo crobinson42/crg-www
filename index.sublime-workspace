@@ -1,0 +1,503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"happy",
+				"happyCheck"
+			],
+			[
+				"message",
+				"messageInput"
+			],
+			[
+				"email",
+				"emailInput"
+			],
+			[
+				"close",
+				"closeNavX"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"about",
+				"about_section"
+			],
+			[
+				"modal",
+				"modal_container"
+			],
+			[
+				"blank",
+				"blanks1"
+			],
+			[
+				"ans",
+				"answer3"
+			],
+			[
+				"an",
+				"answer2"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"text",
+				"text-color"
+			],
+			[
+				"tex",
+				"text-color"
+			],
+			[
+				"object",
+				"object-position"
+			],
+			[
+				"title",
+				"title-box"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"second",
+				"secondParagraph"
+			],
+			[
+				"j",
+				"text-justify"
+			],
+			[
+				"e",
+				"efe4c2"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"translate",
+				"translate3d()"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ultra-",
+				"ultra-expanded"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"F",
+				"F7F7D0"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/BERGMCJ2/Desktop/work/crg-www/index.html",
+		"/C/Users/BERGMCJ2/Desktop/work/crg-www/assets/js/main.js",
+		"/C/Users/BERGMCJ2/Desktop/javascript 30/JavaScript30-master/13 - Slide in on Scroll/index-START.html",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/index.html",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/creative.sublime-project",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/creative.sublime-workspace",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/index.sublime-project",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/dist/creative.html",
+		"/C/Users/BERGMCJ2/Desktop/Bootstrap template/dist/js/contact_me.js",
+		"/C/Users/BERGMCJ2/Desktop/Bootstrap template/dist/js/vitality-mixitup.js",
+		"/C/Users/BERGMCJ2/Desktop/cab_resume/dist/index.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/bootstrap.min.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/src/contact.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/src/contact.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/contact.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/docs/index.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/jquery-3.2.1.js",
+		"/C/Users/BERGMCJ2/Desktop/Bootstrap resume template/dist/creative.html",
+		"/C/Users/BERGMCJ2/Desktop/Bootstrap resume template/rinjani-v3/documentation/index.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/index.html",
+		"/C/Users/BERGMCJ2/Desktop/javascript 30/JavaScript30-master/08 - Fun with HTML5 Canvas/index-START.html",
+		"/C/Users/BERGMCJ2/Desktop/javascript 30/JavaScript30-master/10 - Hold Shift and Check Checkboxes/index-START.html",
+		"/C/Users/BERGMCJ2/Desktop/javascript 30/JavaScript30-master/10 - Hold Shift and Check Checkboxes/index-FINISHED.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/To Do list app/index.html",
+		"/C/Users/BERGMCJ2/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/BERGMCJ2/Desktop/javascript 30/JavaScript30-master/08 - Fun with HTML5 Canvas/index-FINISHED.html",
+		"/C/Users/BERGMCJ2/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/BERGMCJ2/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/BERGMCJ2/Desktop/gruntfile.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/bootstrap.min.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/contact.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/gulpfile.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/contact.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/contact.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/src/contact.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/package.json",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/contact.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/docs/bootstrap.min.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/script.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/work.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/package-lock.json",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build/app.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/app.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/build",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/experiment.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/.babelrc",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/gulpfile.babel.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/node_modules/babel-cli/lib/babel/dir.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/dist/js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/dist",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/node_modules/gulp/lib/completion.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/node_modules/gulp/bin/gulp.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/navbar.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/navbar.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/navbar.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/index.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/work.css",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/work.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/cakecode.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/contact2.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/contact2.html",
+		"/C/Users/BERGMCJ2/AppData/Local/Temp/Temp1_7.11.php.zip/7.11.php",
+		"/C/Users/BERGMCJ2/Downloads/jquery-3.2.1.js",
+		"/C/Users/BERGMCJ2/Downloads/jquery-ui-1.12.1.custom (1)/jquery-ui-1.12.1.custom/external/jquery/jquery.js",
+		"/C/Users/BERGMCJ2/Downloads/bootstrap-3.3.7-dist (3)/bootstrap-3.3.7-dist/js/bootstrap.min.js",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/second contact.html",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/.gitignore",
+		"/C/Users/BERGMCJ2/Desktop/my-profile/script.js",
+		"/C/Users/BERGMCJ2/Desktop/react-demo/react-demo/src/App.css",
+		"/C/Users/BERGMCJ2/Desktop/react-demo/react-demo/src/App.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/gamework.js",
+		"/C/Users/BERGMCJ2/Desktop/mynewreact/src/App.js",
+		"/C/Users/BERGMCJ2/Desktop/mynewreact/src/index.html",
+		"/C/Users/BERGMCJ2/Desktop/mynewreact/src/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/petparentsresp/index.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/petparentsresp/col.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/petparentsresp/js/script.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/petparentsresp/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/playingnosass.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/gameworks2.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/playing.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/index.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/gamework.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/gamework.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/449470606.mp4",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/Sunset-Lapse.zip",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/playing.scss",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/playing around/playing.css",
+		"/C/Users/BERGMCJ2/sharon-new-site2/styles.scss",
+		"/C/Users/BERGMCJ2/sharon-new-site2/index.html",
+		"/C/Users/BERGMCJ2/sharon-new-site2/script.js",
+		"/C/Users/BERGMCJ2/sharon-new-site2/12cols.css",
+		"/C/Users/BERGMCJ2/sharon-new-site2/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/css/test.scss",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/css/test.css",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/css/styles.scss",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/css/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/sharon-new-site/styles.scss",
+		"/C/Users/BERGMCJ2/Desktop/Coding files/portfinal.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/petparentsresp/script.js",
+		"/C/Users/BERGMCJ2/Desktop/Weather App/script.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Random Quotes/quotes.html",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/index.html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Random Quotes/quotes.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Random Quotes/quotes.js",
+		"/C/Users/BERGMCJ2/Desktop/petparentsresp/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Portfolio/index.html",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/animation.html",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/animation.css",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/animation.js",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/styles.css",
+		"/C/Users/BERGMCJ2/Desktop/Fun Emily/script.js",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Omnifood - After Section 6.zip - Google Drive_files/proxy(1).html",
+		"/C/Users/BERGMCJ2/Desktop/Coding projects/Omnifood Project/index.html",
+		"/C/Users/BERGMCJ2/Desktop/petparentsresp/script.js",
+		"/C/Users/BERGMCJ2/Downloads/my-simple-php-contact-form.php",
+		"/C/Users/BERGMCJ2/Desktop/petparentsresp/index.html",
+		"/C/Users/BERGMCJ2/Documents/sass-test/styles.sass",
+		"/C/Users/BERGMCJ2/Desktop/learnsass/styles.css",
+		"/C/Users/BERGMCJ2/Documents/sass-test/index.html",
+		"/C/Users/BERGMCJ2/Documents/sass-test/test.css",
+		"/C/Users/BERGMCJ2/Documents/sass-test/test.scss",
+		"/C/Users/BERGMCJ2/Desktop/learnsass/index.html",
+		"/C/Users/BERGMCJ2/Desktop/learnsass/styles.sass",
+		"/C/Users/BERGMCJ2/Desktop/petparentsresp/js/backup",
+		"/C/Users/BERGMCJ2/Desktop/HelloReact/server.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#333333",
+			"happyCheck",
+			"      \n",
+			"inputData",
+			"})\n",
+			"build",
+			"babel",
+			".babelrc",
+			"navigation",
+			"nothappy",
+			"clearFields",
+			"pic",
+			"5",
+			";\n",
+			"\">\n",
+			";\t \t",
+			") ",
+			">\n",
+			"      \n",
+			"' ",
+			"\">\n",
+			"();\n",
+			"userInput",
+			">\n",
+			";\n",
+			"    \n",
+			">\n",
+			"absolute",
+			";\n",
+			"44",
+			"30px",
+			">\n",
+			"<button type=\"button\" class=\"btn btn-default\"></button>",
+			";\n",
+			"400px",
+			"info",
+			"post",
+			"top",
+			"75px",
+			"f",
+			"title",
+			"hr",
+			"}",
+			"div",
+			"< ",
+			"div",
+			"class",
+			">",
+			"css",
+			"\">\n",
+			">\n",
+			"transparent",
+			"700px",
+			"}",
+			"}\n",
+			"Work",
+			"Day",
+			">\n",
+			"=\">",
+			">",
+			"50px",
+			"col-lg-4",
+			"div",
+			">\n",
+			"col",
+			"\">\n",
+			"        \n",
+			"<div class=\"col-lg-2\">",
+			"\">\n",
+			"- ",
+			"200px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

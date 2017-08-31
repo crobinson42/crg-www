@@ -4,14 +4,18 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
     <title>Castle Rock Construction</title>
+
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">    
+    <meta name="author" content="">  
     <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>  
+
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Plugins CSS -->   
@@ -52,13 +56,14 @@
                     </div><!--//navbar-header-->
                     <div id="navbar-collapse" class="navbar-collapse collapse text-center">
                         <ul class="nav navbar-nav center-block">
-                            <li class="nav-item active"><a class="scrollto" href="#header">Home</a></li>
-                            <li class="nav-item"><a class="scrollto" href="#services">Services</a></li>
-                            <li class="nav-item"><a class="scrollto" href="#why">Why Us</a></li>  
-                            <li class="nav-item"><a class="scrollto" href="#reviews">Reviews</a></li>
-                            <li class="nav-item"><a class="scrollto" href="#projects">Projects</a></li>                                   
-                            <li class="nav-item"><a class="scrollto" href="#faqs">FAQs</a></li>
-                            <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
+                            <li class="nav-item active"><a class="scrollto navigation" href="#header">Home</a></li>
+                            <li class="nav-item"><a class="scrollto navigation" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="scrollto navigation" href="#why">Why Us</a></li>  
+                            <li class="nav-item"><a class="scrollto navigation" href="#reviews">Reviews</a></li>
+                            <li class="nav-item"><a class="scrollto navigation" href="#about">About</a></li> 
+                            <li class="nav-item"><a class="scrollto navigation" href="#projects">Projects</a></li>                                   
+                            <li class="nav-item"><a class="scrollto navigation" href="#faqs">FAQs</a></li>
+                            <li class="nav-item"><a class="scrollto navigation" href="#contact">Contact</a></li>
                         </ul><!--//nav-->
                     </div><!--//navabr-collapse-->
                 </nav><!--//main-nav-->
@@ -77,8 +82,8 @@
             <ul class="header-info-list list-inline pull-right">
                 <li class="info-item contact-methods" id="contact1">
                     <span class="custom-icon icon-telephone_signal"></span>
-                    <span class="info-main phone-number"><a href="#" id="phone">(208) 858-3040</a></span>
-                    <span class="info-sub"><a href="#" id="email-address">info@castlerock-construction.com</a></span>
+                    <span class="info-main phone-number"><a href="tel:+1-208-858-3040" id="phone">(208) 858-3040</a></span>
+                    <span class="info-sub"><a href="mailto: info@castlerock-construction.com" id="email-address">info@castlerock-construction.com</a></span>
                 </li><!--//info-item-->
                 <li class="info-item business-hours" id="hours">
                     <span class="custom-icon icon-clock"></span>
@@ -112,7 +117,7 @@
     				        
 				            <h2 class="heading boxer-font">Castle Rock Construction</h2>
 				            <p class="intro">Make your home your castle</p>
-				            <a class="btn btn-primary btn-cta scrollto" href="#contact" target="_blank">Get a FREE Quote</a>
+				            <a class="btn btn-primary btn-cta scrollto quoteButton" href="#contact" target="_blank">Get a FREE Quote</a>
     				        
     					</div><!--//item-content-inner-->
 					</div><!--//item-content-->
@@ -241,7 +246,7 @@
             
             <div class="cta-area">
                 <ul class="list-inline">
-                    <li><a class="btn btn-primary scrollto" href="#contact">Get a FREE quote</a></li>
+                    <li><a class="btn btn-primary scrollto quoteButton" href="#contact">Get a FREE quote</a></li>
                     <li><a class="btn btn-secondary scrollto" href="#projects">View our projects</a></li>
                 </ul>
             </div><!--//cta-area-->
@@ -409,8 +414,8 @@
     <section class="callout-section section text-center">
         <div class="callout-container container">
             <h2 class="section-title">Interested in hiring us?</h2>
-            <div class="callout-desc">Contact us today to talk about your project and requirements.<br> We're here to make your home remodel ideas turn out great!</div>
-            <a class="callout-btn btn btn-cta btn-primary scrollto" href="#contact">Get a FREE quote</a>
+            <div class="callout-desc">Contact us today to talk about your project and requirements.<br> 100% Customer Satisfaction Guaranteed.</div>
+            <a class="callout-btn btn btn-cta btn-primary scrollto quoteButton" href="#contact">Get a FREE quote</a>
         </div><!--//container-->      
     </section><!--//callout-block-->
     
@@ -617,11 +622,11 @@
             <ul class="contact-info-list list-inline">
                 <li class="item">
                     <span class="custom-icon icon-telephone_signal"></span>
-                    <span class="info"><a href="#" style="text-shadow: 1px 1px black;">(208) 858-3040</a></span>
+                    <span class="info"><a href="tel:+1-208-858-3040" style="text-shadow: 1px 1px black;" id="phone-number">(208) 858-3040</a></span>
                 </li>
                 <li class="item">
-                    <span class="custom-icon icon-email"></span>
-                    <span class="info"><a href="#" style="text-shadow: 1px 1px black;">info@castlerock-construction.com</a></span>
+                    <span class="custom-icon icon-email" id="email-icon-contact"></span>
+                    <span class="info"><a href="mailto: info@castlerock-construction.com" style="text-shadow: 1px 1px black;">info@castlerock-construction.com</a></span>
                 </li>    
             </ul>
 
@@ -645,11 +650,11 @@
                     <ul class="footer-contact-list list-unstyled">
                         <li class="item">
                             <span class="custom-icon icon-telephone_signal"></span>
-                            <span class="info"><a href="#">(208) 858-3040</a></span>
+                            <span class="info"><a href="tel:1+208-858-3040">(208) 858-3040</a></span>
                         </li>
                         <li class="item">
                             <span class="custom-icon icon-email"></span>
-                            <span class="info"><a href="#">info@castlerock-construction.com</a></span>
+                            <span class="info"><a href="mailto: info@castlerock-construction.com">info@castlerock-construction.com</a></span>
                         </li>    
                         <li class="item">
                             <span class="custom-icon icon-map_pin"></span>
@@ -864,10 +869,11 @@
         </div>
     </div><!--blueimp-gallery-->   
 
-     <!-- Main Javascript -->          
+     <!-- Main Javascript --> 
+    <script type="text/javascript" src="events.js"></script>          
     <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>  
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
     <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery.validate.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
@@ -876,9 +882,10 @@
     <script type="text/javascript" src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script type="text/javascript" src="assets/plugins/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js"></script>
-    <script type="text/javascript" src="assets/js/ajax-form.js"></script> 
-    
+    <script type="text/javascript" src="assets/js/ajax-form.js"></script>     
     <script type="text/javascript" src="assets/js/main.js"></script> 
+   
+   
    
     
     <!--[if !IE]>-->
