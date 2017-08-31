@@ -361,8 +361,7 @@ textarea {
   padding-top: 10px;
   text-indent: 0;
 }
-.industry-description.career-section-mail span,
-a {
+.industry-description.career-section-mail a {
   color: #FDFDFD;
   padding-left: 10px;
   font-size: 120%;
@@ -809,21 +808,21 @@ h1.logo img {
 .header-info-list .info-item a {
   color: #fff;
 }
-.header-info-list .info-main {
+.header-info-list .info-main .phone-number {
   display: block;
   color: #fff;
   font-weight: bold;
   font-size: 16px;
 }
-.header-info-list .info-main a {
+.header-info-list .info-main .phone-number a {
   color: #fff;
 }
-.header-info-list .info-sub {
+.header-info-list .info-sub .header-mail {
   display: block;
   color: #fff;
   font-size: 14px;
 }
-.header-info-list .info-sub a {
+.header-info-list .info-sub .header-mail a {
   color: #fff;
 }
 .header-info-list .custom-icon {
@@ -1103,6 +1102,7 @@ h1.logo img {
   background-size: 100% 100%;
   max-width: 100%;
   overflow: hidden;
+  padding-left: 0;
 }
 .photos-wrapper .item a img {
   -webkit-transition: all 0.4s ease-in-out;
